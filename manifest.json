@@ -1,0 +1,21 @@
+{
+  "name": "Copy Frame Address",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Context menu item to copy a frame's url to the system clipboard. Identical to Frame -> Copy address in classic opera.",
+  "homepage_url": "http://web.devocalypse.com/extensions",
+  "icons": {
+    "16": "icons/icon16.png",
+    "19": "icons/icon19.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]},
+  "permissions": [
+    "clipboardWrite",
+    "contextMenus"
+  ]
+}
